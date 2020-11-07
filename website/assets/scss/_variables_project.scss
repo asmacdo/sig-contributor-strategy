@@ -5,17 +5,18 @@ Add styles or override variables from the theme here.
 */
 
 $secondary: #BA5A31;
+// farts
+
+.td-default main .section-group section ~ section {
+    padding-top: 0;
+}
+
+.td-default main .section-group section:first-of-type {
+    padding-top: 5rem;
+}
 
 .td-main {
-    .nested-section {
-
-        section:first-of-type {
-            padding-top: 0;
-        }
-
-        .row {
-            justify-content: space-evenly;
-            padding-top: 0;
-        }
+    .row {
+        justify-content: space-evenly;
     }
 }
