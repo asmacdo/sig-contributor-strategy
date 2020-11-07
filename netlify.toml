@@ -2,15 +2,16 @@
   ID = "cncf-contributor-strategy"
 
 [build]
-  base = "website"
-  publish = "website/public"
-  command = "hugo build"
+  base = "website/"
+  publish = "public/"
+  command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo"
 
 [build.environment]
-  HUGO_VERSION = "0.75.1-ext"
+  HUGO_VERSION = "0.75.1"
+  HUGO_ENV = "production"
 
 [context.branch-deploy]
-  command = "make docs BASEURL_FLAG=\"-b $DEPLOY_PRIME_URL\"/"
+  command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo -b $DEPLOY_PRIME_URL/"
   
 [context.deploy-preview]
-  command = "make docs BASEURL_FLAG=\"-b $DEPLOY_PRIME_URL\"/"
+  command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo -b $DEPLOY_PRIME_URL/"
