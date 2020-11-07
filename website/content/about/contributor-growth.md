@@ -4,31 +4,26 @@ linkTitle: Contributor Growth
 ---
 
 
-{{< blocks/cover title="Contributor Growth Working Group" image_anchor="bottom" height="min" >}}
+{{% blocks/lead color="primary" %}}
+# Contributor Growth Working Group
 
-<p class="lead mt-5">A sample site using the Docsy Hugo theme.
-</p>
+We are interested in assisting CNCF projects with sustainably growing their
+contributor base.
 
-{{< /blocks/cover >}}
-
-{{% blocks/lead %}}
-Goldydocs is a sample site using the <a href="https://github.com/google/docsy">Docsy</a> Hugo theme that shows what it can do and provides you with a template site structure. It’s designed for you to clone and edit as much as you like. See the different sections of the documentation and site for more ideas.
 {{% /blocks/lead %}}
 
+{{% blocks/section color="white" %}}
 
-{{< blocks/section >}}
-<div class="col-12">
-<h1 class="text-center">This is another section</h1>
-</div>
+<div class="content">
 
-{{< /blocks/section >}}
+Meetings take place every 1st and 3rd Tuesday at 2pm PT. (USA Pacific, see your timezone [here](https://time.is/compare/200PM_in_PT)):
 
+* [Zoom](https://zoom.us/my/cncfsigcontributorstrategy?pwd=TnI0WU9Eb2I1RlRWdkl1R0k1WkZXUT09) passcode: `77777`
+* [Meeting Minutes and Agenda](https://docs.google.com/document/d/1Kx7tZv5wTXQ7uRKxn5d9d2wLsI3Q3Q51A0i06nLvtdI/edit)
 
+Discussion happens on the [mailing list] or on #sig-contributor-strategy on [Slack].
 
-{{< blocks/section >}}
+[mailing list]: https://lists.cncf.io/g/cncf-sig-contributor-strategy
+[Slack]: https://slack.cncf.io/
 
-<div class="col-12">
-<h1 class="text-center">This is another section</h1>
-</div>
-
-{{< /blocks/section >}}
+{{% /blocks/section %}}
