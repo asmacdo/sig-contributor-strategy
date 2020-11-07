@@ -1,0 +1,28 @@
+/*
+    Extend the theme's styles here
+*/
+
+// Let us put two same color sections next to each other without extra space
+.td-default main .section-group section ~ section {
+    padding-top: 0;
+}
+
+.td-default main .section-group section:first-of-type {
+    padding-top: 5rem;
+}
+
+// Default flexgrids to center their content evenly
+.td-main {
+    .row {
+        justify-content: space-evenly;
+    }
+}
+
+// Fix link contrast
+.td-box--primary, .td-box--secondary, .td-box--dark {
+    p > a {
+        &:hover{
+            color: $yellow;
+        }
+    }
+}

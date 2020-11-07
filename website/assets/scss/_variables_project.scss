@@ -4,19 +4,7 @@ Add styles or override variables from the theme here.
 
 */
 
-$secondary: #BA5A31;
-
-.td-default main .section-group section ~ section {
-    padding-top: 0;
-}
-
-.td-default main .section-group section:first-of-type {
-    padding-top: 5rem;
-}
-
-.td-main {
-    .row {
-        justify-content: space-evenly;
-    }
-}
-
+$orange: #BA5A31;
+$yellow: #f8e21d;
+$secondary: $orange;
+$link-hover-color: $orange
