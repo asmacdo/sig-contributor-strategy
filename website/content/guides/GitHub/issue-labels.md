@@ -1,4 +1,11 @@
-# Issue Labels for New Contributors
+---
+title: "Issue Labels for New Contributors"
+linkTitle: "Issue Labels for New Contributors"
+type: docs
+date: 2020-09-29
+description: >
+  Curate your issues and apply labels that attract new contributors.
+---
 
 A great way to encourage new contributors is to curate issues that are suitable
 for people new to the project and make them easy to find. There are two common
