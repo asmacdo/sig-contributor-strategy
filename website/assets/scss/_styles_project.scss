@@ -20,7 +20,7 @@
 
 // Fix link contrast
 .td-box--primary, .td-box--secondary, .td-box--dark {
-    p > a {
+    a, p > a {
         &:hover{
             color: $yellow;
         }
